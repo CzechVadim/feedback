@@ -1,0 +1,83 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.popup {
+    padding: 20px 20px;
+    text-align: center; /* Весь текст в блоке popup по центру */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 420px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #777777;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=checkbox] {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.popup h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.popup button {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #ff6347;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: #ffffff;
+    border: 1px solid #ff6347;
+    color: #000000;
+}
+
+.popup a {
+    color: #ff6347;
+    font-size: 14px;
+}
